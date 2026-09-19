@@ -1,0 +1,4 @@
+# Local source material and hosting metadata are not part of the public website.
+/photo/
+/*.txt
+/.openai/
