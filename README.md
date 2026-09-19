@@ -38,12 +38,12 @@ python -m http.server 4173
 
 สำหรับรูป hero:
 
-1. วางรูปชื่อ `hero.jpg` ใน `dist/assets/photos/`
+1. วางรูปชื่อ `hero.JPG` ใน `dist/assets/photos/` (ชื่อไฟล์ต้องตรงทั้งตัวพิมพ์เล็ก–ใหญ่)
 2. เปิด `dist/styles.css`
 3. เปลี่ยนตัวแปร `--hero-photo` เป็น:
 
 ```css
---hero-photo: url("assets/photos/hero.jpg");
+--hero-photo: url("assets/photos/hero.JPG");
 ```
 
 แนะนำให้ใช้รูปแนวนอนขนาดประมาณ 1800 × 1200 px และบีบอัดไฟล์ก่อน deploy
